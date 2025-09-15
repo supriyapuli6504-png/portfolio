@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)http://127.0.0.1:3000/c:/Users/Lenovo/OneDrive/Documents/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./My Portfolio_files/___vscode_livepreview_injected_script"></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    /* ===== RESET & GLOBAL ===== */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      line-height: 1.6;
+    }
+    a { color: #0ff; text-decoration: none; }
+    h1, h2, h3 { margin-bottom: 1rem; }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 5%;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    nav ul li { margin-left: 2rem; }
+
+    /* ===== HERO SECTION ===== */
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: #0ff;
+    }
+    .hero p { max-width: 600px; margin: 1rem auto; }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background: #0ff;
+      color: #000;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #00cccc; }
+
+    /* ===== SECTIONS ===== */
+    section { padding: 4rem 10%; }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 1.5rem;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .card:hover { transform: translateY(-5px); }
+
+    /* ===== CONTACT ===== */
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+    }
+    form input, form textarea {
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 0.8rem;
+      background: #0ff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    form button:hover { background: #00cccc; }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #111;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <h2>My Portfolio</h2>
+    <ul>
+      <li><a href="http://127.0.0.1:3000/c:/Users/Lenovo/OneDrive/Documents/index.html#about">About</a></li>
+      <li><a href="http://127.0.0.1:3000/c:/Users/Lenovo/OneDrive/Documents/index.html#projects">Projects</a></li>
+      <li><a href="http://127.0.0.1:3000/c:/Users/Lenovo/OneDrive/Documents/index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>Hello, I'm Supriya 👋</h1>
+    <p>A BTech IT student &amp; aspiring UI/UX designer.  
+       Passionate about creating user-friendly digital experiences.</p>
+    <a href="http://127.0.0.1:3000/c:/Users/Lenovo/OneDrive/Documents/index.html#projects" class="btn">See My Work</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate UI/UX designer and BTech IT student with a deep fascination for creating digital experiences that feel both futuristic and intuitive. My journey began with curiosity about how design can solve real-world problems.
+      My design philosophy centers on three pillars: clarity in communication, usablilty at the core, and creativity that pushes boundaries while remaining accessible.
+      As a fresher entering the industry, I bring fresh perspectives, eagerness to learn, and a commitment to creating designs that make technology&nbsp;more&nbsp;human.  
+      Skilled in Figma, HTML, CSS, and JavaScript. Currently exploring machine learning and user-centered design.
+    </p>
+  </section>
+    
+    <section id="skills">
+    <h2>Skills &amp; Tools</h2>
+      <ul>
+        <li>UI Design</li> 
+        <li>UX Research</li> 
+        <li>Figma</li>
+        <li>Adobe XD</li>  
+        <li>Wireframing</li> 
+        <li>Prototyping</li> 
+        <li>Design Systems</li>
+      </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>A personal website to showcase my skills and projects.</p>
+      </div>
+      <div class="card">
+        <h3>UI/UX Case Study</h3>
+        <p>Redesigned a mobile app for better usability and engagement.</p>
+      </div>
+      <div class="card">
+        <h3>Travel planner website Project</h3>
+        <p>built using HTML CSS JavaScript Python.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="get in touch">
+    <h2>Get in touch</h2>
+    <p>
+      I'm currently seeking internship and entry-level opportunities where I can contribute fresh perspectives and grow as a UI/UX designer.
+      Whether you have a project in mind, want to collaborate, or just want to chat about design, I'd love to hear from you.
+      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 13">
+  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"></path>
+</svg>
+<a href="mailto:supriya@gmail.com">
+  <span class="material-icons"></span> supriyapuli6504@gmail.com
+</a>
+
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required="">
+      <input type="email" placeholder="Your Email" required="">
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Supriya Puli | Designed with ❤</p>
+  </footer>
+
+
+</body></html>
